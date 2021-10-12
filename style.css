@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: rgb(37,37,40);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(30,30,30,1) 75%, rgba(55,55,55,1) 100%); 
+    background-attachment: scroll;
+}
+header {
+    background-color: rgb(200, 236, 236);
+    opacity: 0.5;
+    position: relative;
+    top:100px;
+    transition: transform 0.5s,opacity 0.5s;
+
+}
+header:hover{
+    opacity: 0.85;
+    transform:scale(1.1);
+}
+header p {
+    text-align: center;
+    font-size: 200px;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    height: 200px;
+
+}
+
+#top-img {
+
+    background-image: URL("src/earth.png");
+    background-attachment: fixed;
+    height: 400px;
+    
+}
+
+
+#article{
+    background-color: darkslategrey;
+    opacity: 0.95;
+    margin:40px;
+}
+#article p{
+    font-size: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    font-family: Georgia;
+}
+a:link{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+a:visited {
+    text-decoration: none;
+    color:black;
+}
