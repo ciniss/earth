@@ -20,12 +20,13 @@ header:hover{
     opacity: 0.85;
     transform:scale(1.1);
 }
+/*Napis*/
 header p {
     text-align: center;
     font-size: 200px;
     font-family: Helvetica;
     text-transform: uppercase;
-    height: 200px;
+    height: 20%;
 
 }
 
