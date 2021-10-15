@@ -11,6 +11,7 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 nav {
     background-color: darkslategrey;
@@ -158,4 +159,36 @@ button{
 #usernameArea{
     width:600px;
     height: 70px;
+}
+
+.post{
+    height: 200px;
+    text-align: left;
+    border-radius: 20px;
+    background-color: #CCC;
+    margin: 5px 10%;
+}
+.message{
+    font-family:'Noto Sans Mono',sans-serif ;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    height: 80%;
+    overflow:hidden;
+    background-color: rgb(134, 95, 121);
+    border-bottom: rgb(145, 115, 142) 4px solid;
+}
+.message-footer{
+    width: 100%;
+    background-color: rgb(110, 75, 110);
+    height: 20%;
+    border-radius: 0px;
+}
+.message-footer p{
+    font-family: 'Noto Sans Mono',sans-serif ;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 8px;
+    font-weight: bold;
+    color:rgb(160, 158, 158);
 }
