@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Noto Sans Mono';
+    src: url('src/font1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     margin:0px;
     padding:0px;
@@ -88,6 +94,7 @@ main{
     height: 200px;
     margin-bottom: 1%;
     background-color:#484747;
+    padding:10px;
 }
 #posts{
     width: 100%;
@@ -96,8 +103,10 @@ main{
 }
 
 #menu li{
-    font-family:rockwell,sans-serif;
-    text-transform: uppercase;
+    font-family:'Noto Sans Mono',sans-serif;
+    text-transform: lowercase;
+    font-weight: 100;
+    letter-spacing: 0.2em;
     font-size: 40px;
     text-align: left;
     list-style-type: square;
@@ -115,4 +124,38 @@ a:hover{
 a:visited {
     text-decoration: none;
     color:black;
+}
+.input{
+    font-family:'Noto Sans Mono';
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #6495ed;
+    margin: 10px 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 40px; 
+    border-radius: 20px;
+}
+#username{
+    float:left;
+}
+textarea{
+    resize: none;
+    outline: none;
+}
+#userText{
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Noto Sans Mono';
+}
+#postbutton{
+    float:left;
+}
+button{
+    font-family: 'Noto Sans Mono';
+}
+#usernameArea{
+    width:600px;
+    height: 70px;
 }
